@@ -14,7 +14,7 @@ export function Layout() {
       {/* Sidebar */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <div className="profile-img-placeholder">BIO</div>
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="site-logo" />
           <h1 className="site-title">Análise de Bioimagens</h1>
           <p className="site-subtitle">Prof. Alexandre Bruni-Cardoso<br/>Universidade de São Paulo</p>
         </div>
