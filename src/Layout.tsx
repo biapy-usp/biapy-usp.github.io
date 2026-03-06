@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
+import './App.css'; // Mudei para garantir que o CSS seja carregado no Layout
 
 export function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
