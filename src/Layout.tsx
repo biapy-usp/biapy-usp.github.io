@@ -15,9 +15,14 @@ export function Layout() {
       {/* Sidebar */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="site-logo" />
-          <h1 className="site-title">Análise de Bioimagens</h1>
-          <p className="site-subtitle">Prof. Alexandre Bruni-Cardoso<br/>Universidade de São Paulo</p>
+          <div className="sidebar-brand">
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="site-logo" />
+            <div className="sidebar-brand-text">
+              <h1 className="site-title">Análise de Bioimagens</h1>
+              <p className="site-subtitle">Prof. Alexandre Bruni-Cardoso</p>
+            </div>
+          </div>
+          <p className="site-institution">Universidade de São Paulo</p>
         </div>
         
         <nav className="sidebar-nav">
