@@ -64,7 +64,7 @@ function App() {
 
         <div className="content-container">
           <header className="page-header" id="inicio">
-            <h1 className="page-title">Fundamentos de Análise de Bioimagens com Python</h1>
+            <h1 className="page-title">Fundamentos de Análise de Bioimagens de Microscopia com Python</h1>
             <div className="meta-info">
               <span className="badge">QBQ5915</span>
               <span>Pós-graduação - Instituto de Química, USP</span>
