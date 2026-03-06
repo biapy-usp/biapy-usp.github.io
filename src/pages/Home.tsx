@@ -38,14 +38,11 @@ export function Home() {
         <section id="recursos">
           <h2>Contato e Citação</h2>
           <p>
-            Para dúvidas sobre o curso e material, contate o Prof. Alexandre Bruni Cardoso via email: <code>brunicar@iq.usp.br</code>.
+            Para dúvidas sobre o curso e material, contate o Prof. Alexandre Bruni Cardoso via email: <code>brunicardoso@usp.br</code>.
           </p>
           <p>
             <strong>Citação do Material:</strong><br/>
             <em>Bruni-Cardoso, A. (2025). Teaching material for microscopy image (bioimage) analysis with Python. Zenodo. <a href="https://doi.org/10.5281/zenodo.15089565">https://doi.org/10.5281/zenodo.15089565</a></em>
-          </p>
-          <p>
-            A maioria dos materiais do curso são explorados em tutoriais em vídeo no <a href="https://www.youtube.com/channel/UCbJAU7N9FYvwkdgSwD_1S4Q">Canal do YouTube BioPrograma</a>.
           </p>
         </section>
       </article>
