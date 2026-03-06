@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/', // Volta para raiz, já que será hospedado em organizacao.github.io
+  build: {
+    outDir: 'docs', // Necessário para o GitHub Pages ler a pasta corretamente
+  }
 })
