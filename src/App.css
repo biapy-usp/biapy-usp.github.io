@@ -26,10 +26,10 @@
 }
 
 .site-logo {
-  max-width: 150px;
+  max-width: 80px;
   width: 100%;
   height: auto;
-  border-radius: 8px; /* Remove or change if you prefer a circle */
+  border-radius: 8px; /* Remove or change se quiser que seja quadrado perfeito sem bordas arredondadas */
   margin: 0 auto 1rem;
   display: block;
   object-fit: contain;
