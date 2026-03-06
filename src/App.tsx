@@ -13,7 +13,7 @@ function App() {
       {/* Sidebar */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <div className="profile-img-placeholder">QBQ</div>
+          <div className="profile-img-placeholder">BIO</div>
           <h1 className="site-title">Análise de Bioimagens</h1>
           <p className="site-subtitle">Prof. Alexandre Bruni-Cardoso<br/>Universidade de São Paulo</p>
         </div>
@@ -66,8 +66,7 @@ function App() {
           <header className="page-header" id="inicio">
             <h1 className="page-title">Fundamentos de Análise de Bioimagens de Microscopia com Python</h1>
             <div className="meta-info">
-              <span className="badge">QBQ5915</span>
-              <span>Pós-graduação - Instituto de Química, USP</span>
+              <span>Curso de Atualização - Universidade de São Paulo</span>
             </div>
           </header>
 
@@ -75,19 +74,17 @@ function App() {
             <section>
               <h2>Sobre o Curso</h2>
               <p>
-                Este curso foi desenhado para pós-graduandos e pesquisadores na área de biociências que desejam utilizar ferramentas computacionais para a análise de imagens de microscopia, com foco principal na linguagem <strong>Python</strong>.
+                Esta é a página do curso de atualização <strong>Curso: Fundamentos de Análise de Bioimagens de Microscopia com Python</strong>. Veja mais abaixo, mais informações sobre o curso, incluindo conteúdo, docente, valores e mais.
               </p>
               <p>
-                <strong>Objetivo:</strong> Capacitar o aluno a utilizar Python como ferramenta principal para o processamento, segmentação e análise quantitativa de imagens de microscopia, indo desde os fundamentos da imagem digital até a aplicação de Inteligência Artificial e análise estatística.
+                O curso ocorrerá dentre os dias (período a definir) de forma totalmente remota. O curso está dividido em 3 módulos contendo aulas gravadas, aulas síncronas e atividades de aprendizado e avaliação.
               </p>
-              
-              <h3>Pré-requisitos</h3>
-              <ul>
-                <li>Computador pessoal com especificações mínimas: 4GB RAM, 10GB de armazenamento livre, processador moderno e conexão à internet.</li>
-                <li>Conta ativa no Google (para uso do Google Colab).</li>
-                <li>Instalação prévia do FIJI/ImageJ.</li>
-                <li>Preferencialmente, estudantes que já utilizam ou planejam utilizar análise de bioimagens em seus projetos.</li>
-              </ul>
+              <p>
+                Nosso público-alvo consiste em estudantes de pós-graduação, pesquisadores e profissionais das áreas de ciências biomédicas, química e informática e se objetiva capacitar o aluno a utilizar Python como ferramenta principal para o processamento, segmentação e análise quantitativa de imagens de microscopia, indo desde os fundamentos da imagem digital até a aplicação de Inteligência Artificial e análise estatística.
+              </p>
+              <p>
+                <em>Curso certificado pela Universidade de São Paulo.</em>
+              </p>
             </section>
 
             <section id="ementa">
@@ -145,7 +142,7 @@ function App() {
               </p>
               <p>
                 <strong>Citação do Material:</strong><br/>
-                <em>Bruni-Cardoso, A. (2025). Teaching material for microscopy image (bioimage) analysis with Python (QBQ5915 - 2025). Zenodo. <a href="https://doi.org/10.5281/zenodo.15089565">https://doi.org/10.5281/zenodo.15089565</a></em>
+                <em>Bruni-Cardoso, A. (2025). Teaching material for microscopy image (bioimage) analysis with Python. Zenodo. <a href="https://doi.org/10.5281/zenodo.15089565">https://doi.org/10.5281/zenodo.15089565</a></em>
               </p>
               <p>
                 A maioria dos materiais do curso são explorados em tutoriais em vídeo no <a href="https://www.youtube.com/channel/UCbJAU7N9FYvwkdgSwD_1S4Q">Canal do YouTube BioPrograma</a>.
